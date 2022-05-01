@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-public class postServiceImplementation implements postService {
+public class PostServiceImplementation implements PostService {
 
     @Autowired
     private PostRepository postRepository;
