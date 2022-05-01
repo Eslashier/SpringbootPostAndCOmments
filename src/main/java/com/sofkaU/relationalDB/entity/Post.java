@@ -25,7 +25,7 @@ public class Post {
     )
     private List<Comment> comments = new ArrayList<>();
 
-    public Post addcomment(Comment comment){
+    public Post addComment(Comment comment){
         this.comments.add(comment);
 
         return this;
